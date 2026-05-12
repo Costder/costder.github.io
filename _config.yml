@@ -1,0 +1,21 @@
+title: "Joshua Herron"
+tagline: "Building AI systems that ship."
+description: "Multi-agent architectures, video generation pipelines, and the occasional isekai."
+url: "https://costder.github.io"
+baseurl: ""
+permalink: /:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"
+
+# Hacker News friendly formatting
+markdown: kramdown
+highlighter: rouge
+timezone: America/Phoenix
