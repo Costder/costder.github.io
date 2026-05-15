@@ -8,15 +8,23 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
   <meta name="description" content="{{ page.description | default: site.description }}">
   {% seo %}
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>">
 </head>
 <body>
+  <!-- Stars -->
+  <div class="stars" aria-hidden="true"></div>
+
   <nav>
-    <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a href="{{ '/' | relative_url }}" class="site-title">
+      The Year of <span class="year-glitch">3K</span>
+    </a>
     <span class="tagline">{{ site.tagline }}</span>
   </nav>
+
   <main>
     {{ content }}
   </main>
+
   <footer>
     <p>&copy; {{ site.time | date: '%Y' }} Joshua Herron &middot; <a href="https://github.com/Costder">GitHub</a> &middot; <a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
   </footer>

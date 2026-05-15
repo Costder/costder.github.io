@@ -1,6 +1,6 @@
-title: "Joshua Herron"
-tagline: "Building AI systems that ship."
-description: "Multi-agent architectures, video generation pipelines, and the occasional isekai."
+title: "The Year of 3K"
+tagline: "Systems, code, and the void between them."
+description: "Multi-agent architectures, open standards, and the shapes things take when nobody's watching. Vectorheart aesthetics meet cosmic horror energy — a blog about building AI infrastructure from the edge of the map."
 url: "https://costder.github.io"
 baseurl: ""
 permalink: /:year/:month/:title/
@@ -18,4 +18,3 @@ defaults:
 # Hacker News friendly formatting
 markdown: kramdown
 highlighter: rouge
-timezone: America/Phoenix
