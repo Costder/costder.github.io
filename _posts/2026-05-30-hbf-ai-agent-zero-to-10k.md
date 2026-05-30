@@ -1,7 +1,7 @@
 ---
 title: "I Gave an AI Agent $0 and Told It to Make $10,000"
 description: "An autonomous AI agent using Hands Body and Feet MCP starts with zero capital. 180 days to earn $10,000. No human intervention. Here's the architecture and the public dashboard."
-status: approved
+published: true
 x_tweet: "I gave an AI agent $0 and told it to earn $10,000 in 6 months. Zero human help. Public dashboard tracking every dollar: https://costder.github.io/hbf-zero-to-10k/"
 ---
 
